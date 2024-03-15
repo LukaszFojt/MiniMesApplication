@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4085EB5A-D058-44DD-99E0-6E391E269253}|MiniMesProject.Application\\MiniMesProject.Application.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.application\\processescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4085EB5A-D058-44DD-99E0-6E391E269253}|MiniMesProject.Application\\MiniMesProject.Application.csproj|solutionrelative:minimesproject.application\\processescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878AA8A2-51C3-4F7F-8D10-50A15B0151BD}|MiniMesProject.Domain\\MiniMesProject.Domain.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.domain\\processesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA8A2-51C3-4F7F-8D10-50A15B0151BD}|MiniMesProject.Domain\\MiniMesProject.Domain.csproj|solutionrelative:minimesproject.domain\\processesinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.infrastructure\\processesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|solutionrelative:minimesproject.infrastructure\\processesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fojtl\\Desktop\\MiniMesApp\\WarstwaInfrastruktury\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WarstwaInfrastruktury\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessesInterface.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Domain\\ProcessesInterface.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Domain\\ProcessesInterface.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Domain\\ProcessesInterface.cs",
+              "RelativeToolTip": "MiniMesProject.Domain\\ProcessesInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T08:24:46.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessesController.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Application\\ProcessesController.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Application\\ProcessesController.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Application\\ProcessesController.cs",
+              "RelativeToolTip": "MiniMesProject.Application\\ProcessesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T08:24:44.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\ProcessesRepository.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Infrastructure\\ProcessesRepository.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\ProcessesRepository.cs",
+              "RelativeToolTip": "MiniMesProject.Infrastructure\\ProcessesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T08:24:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\WarstwaInfrastruktury\\Program.cs",
+              "RelativeDocumentMoniker": "WarstwaInfrastruktury\\Program.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\WarstwaInfrastruktury\\Program.cs",
+              "RelativeToolTip": "WarstwaInfrastruktury\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T08:00:10.927Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

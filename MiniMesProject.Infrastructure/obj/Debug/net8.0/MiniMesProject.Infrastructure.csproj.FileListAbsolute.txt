@@ -1,0 +1,17 @@
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.AssemblyInfo.cs
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Infrastructure.deps.json
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Infrastructure.runtimeconfig.json
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Infrastructure.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Infrastructure.pdb
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Domain.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\bin\Debug\net8.0\MiniMesProject.Domain.pdb
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesP.C49D10D9.Up2Date
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\refint\MiniMesProject.Infrastructure.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.pdb
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.genruntimeconfig.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\ref\MiniMesProject.Infrastructure.dll

@@ -1,0 +1,14 @@
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\bin\Debug\net8.0\MiniMesProject.Domain.deps.json
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\bin\Debug\net8.0\MiniMesProject.Domain.runtimeconfig.json
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\bin\Debug\net8.0\MiniMesProject.Domain.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\bin\Debug\net8.0\MiniMesProject.Domain.pdb
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.csproj.AssemblyReference.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.AssemblyInfoInputs.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.AssemblyInfo.cs
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\refint\MiniMesProject.Domain.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.pdb
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\MiniMesProject.Domain.genruntimeconfig.cache
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Domain\obj\Debug\net8.0\ref\MiniMesProject.Domain.dll
