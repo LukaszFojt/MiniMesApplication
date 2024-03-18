@@ -1,6 +1,4 @@
-
 using Microsoft.EntityFrameworkCore;
-
 
 /**
  * Klasa g³ówna programu MiniMesProject.
@@ -24,7 +22,7 @@ namespace MiniMesProject
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<MiniMesDbContext>(o => 
-            o.UseSqlServer(@"Data Source=364-LAP-2020\SQLEXPRESS;Initial Catalog=StoreDB;Integrated Security=SSPI;TrustServerCertificate=True;",
+            o.UseSqlServer(@"Data Source=364-LAP-2020\SQLEXPRESS;Initial Catalog=MiniMesDB;Integrated Security=SSPI;TrustServerCertificate=True;",
             o => o.MigrationsAssembly("MiniMesProject")));
 
             // Rejestracja interfejsów repozytoriów z odpowiadaj¹cymi im implementacjami.
@@ -34,6 +32,7 @@ namespace MiniMesProject
             builder.Services.AddScoped<IProcessesRepository, ProcessesRepository>();
             builder.Services.AddScoped<IParametersRepository, ParametersRepository>();
             builder.Services.AddScoped<IProcessParametersRepository, ProcessParametersRepository>();
+            builder.Services.AddScoped<IMachineParameterRepository, MachineParameterRepository>();
 
             // Budowanie aplikacji na podstawie konfiguracji.
             var app = builder.Build();

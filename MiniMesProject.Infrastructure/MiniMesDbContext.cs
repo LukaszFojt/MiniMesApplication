@@ -17,6 +17,7 @@ public class MiniMesDbContext : DbContext
     public DbSet<Processes> Processes { get; set; }
     public DbSet<Parameters> Parameters { get; set; }
     public DbSet<ProcessParameters> ProcessParameters { get; set; }
+    public DbSet<MachineParameter> MachineParameter { get; set; }
 
     /**
      * Konstruktor klasy MiniMesDbContext.
@@ -63,6 +64,18 @@ public class MiniMesDbContext : DbContext
             .HasOne<Parameters>()
             .WithMany(p => p.ProcessParameters)
             .HasForeignKey(pp => pp.ParameterId);
+
+        // Konfiguracja relacji jeden-do-wielu między Parametrami Maszyn a Maszynami
+        modelBuilder.Entity<MachineParameter>()
+            .HasOne<Machine>()
+            .WithMany(m => m.MachineParameter)
+            .HasForeignKey(m => m.MachineId);
+
+        // Konfiguracja relacji jeden-do-wielu między Parametrami Maszyn a Parametrami
+        modelBuilder.Entity<MachineParameter>()
+            .HasOne<Parameters>()
+            .WithMany(m => m.MachineParameter)
+            .HasForeignKey(m => m.ParameterId);
     }
 }
 
@@ -80,6 +93,7 @@ public class Machine : IMachine
      * Kolekcja zamówień przypisanych do maszyny.
      */
     public ICollection<Order> Orders { get; set; } = new List<Order>();
+    public ICollection<MachineParameter> MachineParameter { get; set; } = new List<MachineParameter>();
 }
 
 /**
@@ -151,6 +165,7 @@ public class Parameters : IParameters
      * Kolekcja procesów, do których przypisany jest ten parametr.
      */
     public ICollection<ProcessParameters> ProcessParameters { get; set; } = new List<ProcessParameters>();
+    public ICollection<MachineParameter> MachineParameter { get; set; } = new List<MachineParameter>();
 }
 
 /**
@@ -163,6 +178,17 @@ public class ProcessParameters : IProcessParameters
     public double Value { get; set; }
     [ForeignKey("Processes")]
     public int ProcessId { get; set; }
+    [ForeignKey("Parameters")]
+    public int ParameterId { get; set; }
+}
+
+public class MachineParameter : IMachineParameter
+{
+    [Key]
+    public int Id { get; set; }
+    public DateTime DateTime { get; set; }
+    [ForeignKey("Machine")]
+    public int MachineId { get; set; }
     [ForeignKey("Parameters")]
     public int ParameterId { get; set; }
 }

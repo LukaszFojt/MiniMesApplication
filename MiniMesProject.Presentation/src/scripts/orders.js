@@ -30,6 +30,7 @@ const addOrder = async () => {
     };
     await axios.post('http://localhost:5146/api/orders/Add', order);
     console.log('Zlecenie dodane!');
+    alert('Zlecenie zostało dodane!');
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania zlecenia:', error);

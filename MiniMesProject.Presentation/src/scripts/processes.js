@@ -32,6 +32,7 @@ const addProcess = async () => {
     };
     await axios.post('http://localhost:5146/api/processess/Add', process);
     console.log('Proces dodany!');
+    alert('Proces został dodany!');
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania procesu:', error);

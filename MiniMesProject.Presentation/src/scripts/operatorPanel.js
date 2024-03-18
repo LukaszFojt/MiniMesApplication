@@ -1,5 +1,7 @@
 import axios from 'axios';
 import { ref, computed, watchEffect} from 'vue';
+import jsPDF from 'jspdf';
+import 'jspdf-autotable'; // Dodatkowa biblioteka do renderowania tabel
 
 const newOperatorSerialNumber = ref('');
 const newOperatorStatus = ref('');
@@ -92,6 +94,7 @@ const sortedOrders = computed(() => {
       };
       await axios.post('http://localhost:5146/api/processess/Add', process);
       console.log('Proces dodany!');
+      alert('Proces został dodany!');
       await fetchProcesses();
     } catch (error) {
       console.error('Błąd podczas dodawania procesu:', error);
@@ -124,6 +127,12 @@ watchEffect(() => {
       }
   });
 
+  const exportToPDF = async () => {
+    const doc = new jsPDF();
+    doc.autoTable({ html: '#processData' });
+    doc.save('process_data.pdf');
+  };
+
 export { 
   newOperatorSerialNumber, 
   newOperatorOrderId, 
@@ -152,4 +161,5 @@ export {
 
   validateInput,
   watchEffect,
+  exportToPDF,
 };

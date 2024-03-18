@@ -4,10 +4,10 @@
     <div class="container">
       <h2>Dodaj nowe zlecenie</h2>
       <form @submit.prevent="addOrder">
-        <input v-model="newOrderCode" placeholder="Kod zlecenia" @input="validateInput({ code: newOrderCode })" />
-        <input v-model="newOrderQuantity" placeholder="Ilość sztuk zlecenia" type="number" @input="validateInput({ quantity: newOrderQuantity })" />
-        <input v-model="newOrderMachineId" placeholder="ID maszyny" type="number" @input="validateInput({ machineId: newOrderMachineId })" />
-        <input v-model="newOrderProductId" placeholder="ID produktu" type="number" @input="validateInput({ productId: newOrderProductId })" />
+        <input v-model="newOrderCode" placeholder="Kod zlecenia" @input="validateInput" />
+        <input v-model="newOrderQuantity" placeholder="Ilość sztuk zlecenia" type="number" @input="validateInput" />
+        <input v-model="newOrderMachineId" placeholder="ID maszyny" type="number" @input="validateInput" />
+        <input v-model="newOrderProductId" placeholder="ID produktu" type="number" @input="validateInput" />
         <button type="submit">Dodaj</button>
       </form>
     </div>

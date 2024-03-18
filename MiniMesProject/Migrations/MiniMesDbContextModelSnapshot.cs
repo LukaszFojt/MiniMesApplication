@@ -42,6 +42,32 @@ namespace MiniMesProject.Migrations
                     b.ToTable("Machines");
                 });
 
+            modelBuilder.Entity("MachineParameter", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MachineId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ParameterId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MachineId");
+
+                    b.HasIndex("ParameterId");
+
+                    b.ToTable("MachineParameter");
+                });
+
             modelBuilder.Entity("Order", b =>
                 {
                     b.Property<int>("Id")
@@ -107,8 +133,8 @@ namespace MiniMesProject.Migrations
                     b.Property<int>("ProcessId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Value")
-                        .HasColumnType("int");
+                    b.Property<double>("Value")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -169,6 +195,21 @@ namespace MiniMesProject.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("MachineParameter", b =>
+                {
+                    b.HasOne("Machine", null)
+                        .WithMany("MachineParameter")
+                        .HasForeignKey("MachineId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Parameters", null)
+                        .WithMany("MachineParameter")
+                        .HasForeignKey("ParameterId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Order", b =>
                 {
                     b.HasOne("Machine", null)
@@ -210,6 +251,8 @@ namespace MiniMesProject.Migrations
 
             modelBuilder.Entity("Machine", b =>
                 {
+                    b.Navigation("MachineParameter");
+
                     b.Navigation("Orders");
                 });
 
@@ -220,6 +263,8 @@ namespace MiniMesProject.Migrations
 
             modelBuilder.Entity("Parameters", b =>
                 {
+                    b.Navigation("MachineParameter");
+
                     b.Navigation("ProcessParameters");
                 });
 

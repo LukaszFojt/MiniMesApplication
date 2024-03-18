@@ -26,6 +26,7 @@ const addParameter = async () => {
     };
     await axios.post('http://localhost:5146/api/parameters/Add', parameter);
     console.log('Parametr dodany!');
+    alert('Parametr został dodany!');
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania parametru:', error);

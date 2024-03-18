@@ -26,6 +26,7 @@ const addMachine = async () => {
     };
     await axios.post('http://localhost:5146/api/machines/Add', machine);
     console.log('Maszyna dodana!');
+    alert("Maszyna " + newMachineName.value + " została dodana");
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania maszyny:', error);

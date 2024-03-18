@@ -1165,3 +1165,4 @@ C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject\obj\Debug\net8.0\refint\MiniMes
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject\obj\Debug\net8.0\MiniMesProject.pdb
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject\obj\Debug\net8.0\MiniMesProject.genruntimeconfig.cache
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject\obj\Debug\net8.0\ref\MiniMesProject.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject\obj\Debug\net8.0\MiniMesProject.sourcelink.json

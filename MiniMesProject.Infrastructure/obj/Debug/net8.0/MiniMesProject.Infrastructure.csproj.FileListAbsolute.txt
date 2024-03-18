@@ -15,3 +15,4 @@ C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.pdb
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.genruntimeconfig.cache
 C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\ref\MiniMesProject.Infrastructure.dll
+C:\Users\fojtl\Desktop\MiniMesApp\MiniMesProject.Infrastructure\obj\Debug\net8.0\MiniMesProject.Infrastructure.sourcelink.json

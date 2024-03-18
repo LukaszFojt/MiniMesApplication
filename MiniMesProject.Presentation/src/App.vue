@@ -7,6 +7,7 @@
       <ul>
         <li><a href="/">Strona Główna |</a></li>
         <li><a href="/machines">Maszyny |</a></li>
+        <li><a href="/machine-parameters">Parametry maszyn |</a></li>
         <li><a href="/products">Produkty |</a></li>
         <li><a href="/orders">Zlecenia |</a></li>
         <li><a href="/processes">Procesy |</a></li>

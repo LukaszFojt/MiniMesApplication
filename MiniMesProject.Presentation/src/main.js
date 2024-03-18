@@ -12,6 +12,7 @@ import ProcessesInfo from './components/ProcessesInfo.vue'
 import ParametersInfo from './components/ParametersInfo.vue'
 import ProcessParameters from './components/ProcessParameters.vue'
 import OperatorPanel from './components/OperatorPanel.vue'
+import MachineParameters from './components/MachineParameters.vue'
 import NotFound from './components/NotFound.vue'
 
 const router = createRouter({
@@ -25,6 +26,7 @@ const router = createRouter({
         {path: "/parameters", component: ParametersInfo },
         {path: "/process-parameters", component: ProcessParameters },
         {path: "/operator-panel", component: OperatorPanel },
+        {path: "/machine-parameters", component: MachineParameters},
         {path: "/:pathMatch(.*)*", component: NotFound}
     ],
     history: createWebHistory()

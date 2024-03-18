@@ -4,14 +4,14 @@
         <ul class="container panel-options">
           <li>
               <select class="select-button" v-model="selectedOrderCode">
-                  <option selected="selected">Wybierz zlecenie</option>
-                  <option v-for="order in sortedOrders" :key="order.id" :value="order.id">{{ order.code }}</option>             
+                <option disabled selected="selected">Wybierz zlecenie</option>
+                <option v-for="order in sortedOrders" :key="order.id" :value="order.id">{{ order.code }}</option>             
               </select>         
           </li>
           <li>
               <select class="select-button" v-model="selectedProductName">
                 <option selected="selected">Wybierz produkt</option>
-                  <option v-for="product in sortedProducts" :key="product.id" :value="product.id">{{ product.name }}</option>             
+                <option v-for="product in sortedProducts" :key="product.id" :value="product.id">{{ product.name }}</option>             
               </select>         
           </li>
           <li>
@@ -36,12 +36,6 @@
                 <p>{{ selectedProduct.name }}</p>
               </div>
             </div>
-          </li>
-          <li>
-            <div class="select-button"></div>
-          </li>
-          <li>
-            <div class="select-button"></div>
           </li>
         </ul>
 
@@ -82,6 +76,29 @@
           </li>
         </ul>
       </div>
+      <!-- HTML table for displaying process data -->
+      <div v-if="sortedProcesses.length">
+        <h3>Historia procesów</h3>
+        <button @click="exportToPDF">Export to PDF</button>
+        <table id="processData">
+          <thead>
+            <tr>
+              <th>Serial Number</th>
+              <th>Order ID</th>
+              <th>Status</th>
+              <th>Date Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="process in sortedProcesses" :key="process.id">
+              <td>{{ process.serialNumber }}</td>
+              <td>{{ process.orderId }}</td>
+              <td>{{ process.status }}</td>
+              <td>{{ process.dateTime }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </template>
   
@@ -115,6 +132,7 @@
 
     validateInput,
     watchEffect,
+    exportToPDF,
 } from '../scripts/operatorPanel';
   
   onMounted(async () => {
@@ -127,7 +145,7 @@
   <style scoped>
 
     .select-button {
-      width: 290px;
+      width: 230px;
       height: 200px;
       border-radius: 10px;
       background-color: #0056b3;

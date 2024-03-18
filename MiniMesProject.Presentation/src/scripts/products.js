@@ -26,6 +26,7 @@ const addProduct = async () => {
     };
     await axios.post('http://localhost:5146/api/products/Add', product);
     console.log('Produkt dodany!');
+    alert('Produkt ' + newProductName.value + ' został dodany');
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania produktu:', error);

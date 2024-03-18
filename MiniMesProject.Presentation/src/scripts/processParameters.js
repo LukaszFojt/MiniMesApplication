@@ -38,6 +38,7 @@ const addProcessParameter = async () => {
     };
     await axios.post('http://localhost:5146/api/processParameters/Add', processParameter);
     console.log('Parametr Procesu dodany!');
+    alert('Parametr Procesu został dodany!');
     await fetchData();
   } catch (error) {
     console.error('Błąd podczas dodawania produktu:', error);

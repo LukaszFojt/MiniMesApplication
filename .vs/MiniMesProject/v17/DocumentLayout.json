@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.infrastructure\\minimesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|solutionrelative:minimesproject.infrastructure\\minimesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F3CE7E-EF9D-4859-B9B9-91D3CAC44B28}|MiniMesProject\\MiniMesProject.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F3CE7E-EF9D-4859-B9B9-91D3CAC44B28}|MiniMesProject\\MiniMesProject.csproj|solutionrelative:minimesproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.infrastructure\\machineparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9366DB-5036-4FCA-B4CF-3F3C4D5413AE}|MiniMesProject.Infrastructure\\MiniMesProject.Infrastructure.csproj|solutionrelative:minimesproject.infrastructure\\machineparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4085EB5A-D058-44DD-99E0-6E391E269253}|MiniMesProject.Application\\MiniMesProject.Application.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.application\\machineparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4085EB5A-D058-44DD-99E0-6E391E269253}|MiniMesProject.Application\\MiniMesProject.Application.csproj|solutionrelative:minimesproject.application\\machineparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878AA8A2-51C3-4F7F-8D10-50A15B0151BD}|MiniMesProject.Domain\\MiniMesProject.Domain.csproj|c:\\users\\fojtl\\desktop\\minimesapp\\minimesproject.domain\\machineparameterinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878AA8A2-51C3-4F7F-8D10-50A15B0151BD}|MiniMesProject.Domain\\MiniMesProject.Domain.csproj|solutionrelative:minimesproject.domain\\machineparameterinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniMesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\MiniMesDbContext.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Infrastructure\\MiniMesDbContext.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\MiniMesDbContext.cs",
+              "RelativeToolTip": "MiniMesProject.Infrastructure\\MiniMesDbContext.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:58:19.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MachineParameterController.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Application\\MachineParameterController.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Application\\MachineParameterController.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Application\\MachineParameterController.cs",
+              "RelativeToolTip": "MiniMesProject.Application\\MachineParameterController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:43:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MachineParameterInterface.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Domain\\MachineParameterInterface.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Domain\\MachineParameterInterface.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Domain\\MachineParameterInterface.cs",
+              "RelativeToolTip": "MiniMesProject.Domain\\MachineParameterInterface.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:42:23.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MachineParameterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\MachineParameterRepository.cs",
+              "RelativeDocumentMoniker": "MiniMesProject.Infrastructure\\MachineParameterRepository.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject.Infrastructure\\MachineParameterRepository.cs",
+              "RelativeToolTip": "MiniMesProject.Infrastructure\\MachineParameterRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:00:18.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject\\Program.cs",
+              "RelativeDocumentMoniker": "MiniMesProject\\Program.cs",
+              "ToolTip": "C:\\Users\\fojtl\\Desktop\\MiniMesApp\\MiniMesProject\\Program.cs",
+              "RelativeToolTip": "MiniMesProject\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T07:29:59.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
